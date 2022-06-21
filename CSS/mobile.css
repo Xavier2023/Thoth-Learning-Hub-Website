@@ -1,0 +1,143 @@
+
+
+.container  {
+  padding: 0 10px;
+}
+
+
+/* nav  bar */
+
+#main-nav {
+  top: 0;
+  position: unset;
+}
+#main-nav .social {
+  display: none;
+}
+
+
+#main-nav .container  {
+  grid-template-columns: 1fr;
+  grid-gap: 18px;
+}
+
+#main-nav ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+#main-nav ul li {
+  border-bottom: white dotted 1px;
+  padding-bottom: 16px;
+}
+
+#main-nav .logo{
+  justify-self: center;
+}
+
+#showcase {
+  grid-template-columns: 1fr;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 40px;
+}
+
+#showcase img {
+  display: none;
+}
+#home-info  {
+  grid-template-columns: 1fr;
+}
+
+#home-info img  {
+  display: none;
+}
+
+#home-info .info-content  {
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.info-content h2 {
+  font-size: 30px;
+}
+
+
+#testimony {
+  padding: 0 10px;
+}
+#testimony .testimony-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 10px;
+}
+
+#testimony .testimony-content img {
+  display: none;
+}
+
+#testimony .testimony-content .card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 7px;
+}
+
+.content h1 {
+  font-size: 35px;
+}
+
+
+.plan-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.plans  {
+  padding: 0 20px;
+}
+
+.plans .content h1 {
+  font-size: 25px;
+}
+
+.plan {
+  background-size: auto 50%;
+}
+
+.plan.active {
+  padding: 20px;
+}
+
+.plan h1,
+.plan h3,
+.plan h4,
+.plan p,
+.plan a {
+  opacity: 1;
+}
+
+#teams .team-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 40px 60px;
+}
+
+.footer .footer-container {
+  grid-template-columns:  1fr;
+}
+
+.footer .footer-container > *:last-child {
+  grid-column: 1;
+}
+
+
+
